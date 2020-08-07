@@ -1,0 +1,36 @@
+@import '../../sass/config/variables.scss';
+
+footer {
+  padding: 20px 0;
+  p {
+    text-decoration: none;
+    font-size: 12px;
+    color: $black;
+  }
+  nav {
+    ul {
+      margin: 0 0 0 -20px;
+      padding: 0;
+      list-style-type: none;
+      li {
+        display: inline-block;
+        border-radius: 4px;
+        &.sign-up {
+          background-color: $black;
+          margin-left: 10px;
+          a {
+            color: $white;
+          }
+        }
+        a {
+          display: block;
+          padding: 15px 20px;
+          text-decoration: none;
+          color: $black;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
